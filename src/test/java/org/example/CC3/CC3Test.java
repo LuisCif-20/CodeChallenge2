@@ -17,7 +17,6 @@ public class CC3Test {
         final Student student = new Student("Luis", "Cifuentes");
 
         departament.addStudentMark(student, 95);
-        departament.printStudentsMarks();
         
         assertTrue(departament.getSizeStudentsMarks() == 1);
     }
@@ -30,9 +29,7 @@ public class CC3Test {
         final Student student2 = new Student("Daniel", "Cifuentes");
 
         departament.addStudentMark(student1, 95);
-        departament.printStudentsMarks();
         departament.addStudentMark(student2, 85);
-        departament.printStudentsMarks();
 
         assertTrue(departament.getSizeStudentsMarks() == 1);
     }    
