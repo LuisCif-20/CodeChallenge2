@@ -9,7 +9,7 @@ public class Department {
     
     /*
      * Complejidad O(n) ya que recorre el mapa de las notas de los estudiantes, verifica si
-     * existe un estudiante con el mismo apellido, de ser asi, elimina ese entry y lo agrega
+     * existe un estudiante con el mismo apellido, de ser asi, elimina ese entry y agrega
      * el nuevo entry al mapa, si no cumple la condicion, solo agrega el nuevo entry al mapa.
      */
     public void addStudentMark(final Student student, final int mark) {
